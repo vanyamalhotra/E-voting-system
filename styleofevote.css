@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(background1.jpg) no-repeat;
+	background-size: cover;
+}
+table, td, th {
+ 
+  border: 1px solid black;
+  text-align: left;
+}
+
+legend{
+	padding: 4px 4px;
+	border-radius: 4px;
+	font-size: 30px;
+}
+table {
+  
+  width: 100%;
+
+}
+fieldset{
+	width: 60%
+}
+td{
+	 width: 2%;
+  height: 20px;
+  padding: 4px 4px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+/*  resize: none; */
+}
+input[type=text]{
+ 
+  padding: 8px 8px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border: none;
+  background-color: lightgrey;
+  color: black;
+  width: 95%;
+
+}
+
+input[type=radio]{
+ 
+  padding: 8px 8px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border: none;
+  background-color: lightgrey;
+  color: black;
+   width: 10%;
+
+}
+
+input[type=submit]{
+ 
+  padding: 8px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: lightgrey;
+  color: black;
+  font-size: 16px;
+
+}
+select{
+ 
+  padding: 8px 8px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border: none;
+  background-color: lightgrey;
+  color: black;
+   width: 95%;
+
+}
